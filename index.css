@@ -1,11 +1,11 @@
 :root {
-  --clr-primary: "rgba(14, 92, 165, 1)";
-  --clr-secondary: "rgba(242, 136, 244, 1)";
-  --clr-success: "rgba(0, 203, 179, 1)";
-  --clr-warning: "rgba(242, 189, 25, 1)";
-  --clr-danger: "rgba(235, 87, 87, 1)";
-  --clr-dark: "rgba(247, 247, 247, 1)";
-  --clr-light: "rgba(247, 247, 247, 1)";
+  --clr-primary: rgba(14, 92, 165, 1);
+  --clr-secondary: rgba(242, 136, 244, 1);
+  --clr-success: rgba(0, 203, 179, 1);
+  --clr-warning: rgba(242, 189, 25, 1);
+  --clr-danger: rgba(235, 87, 87, 1);
+  --clr-dark: rgba(247, 247, 247, 1);
+  --clr-light: rgba(247, 247, 247, 1);
 
   --ff-base: "Mulish", sans-serif;
 
@@ -21,7 +21,7 @@
   --fs-700: 3.25rem;
 }
 
-html, p, h1 {
+html, body, p, h1 { 
   margin: 0
 }
 
@@ -61,3 +61,29 @@ main {
   gap: 48px;
 }
 
+.main-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-top__text--primary {
+  color: var(--clr-primary)
+}
+
+.main-bottom {
+  display: flex;
+  flex-direction: column;
+
+  gap: 24px
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
