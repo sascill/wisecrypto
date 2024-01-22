@@ -1,0 +1,112 @@
+.member-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+  padding: 48 15;
+}
+
+main {
+  width: 345px;
+  height: 394px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.main-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-top__text--primary {
+  font-size: var(--fs-100);
+  color: var(--clr-primary)
+}
+
+.main-bottom {
+  display: flex;
+  flex-direction: column;
+
+  gap: 24px
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+
+  gap: 32px;
+}
+
+.input-boxes {
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+}
+
+.input-box__label {
+  font-size: var(--fs-200)
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.input-box input,select {
+  padding: 12 16;
+  border-radius: 8px;
+  border: none;
+}
+
+.input-box input:focus,select:focus {
+  outline: 1px solid var(--clr-primary)
+}
+
+.main-top__forgot-password--warning {
+  color: var(--clr-warning);
+  font-size: var(--fs-100);
+  text-align: center;
+}
+
+.main-bottom__button {
+  padding: 11;
+  background-color: var(--clr-primary);
+  color: white;
+  border-radius: 4px;
+}
+
+.main-bottom__text {
+  text-align: center;
+  color: var(--clr-primary);
+  font-size: var(--fs-100);
+}
+
+.main-bottom__text--login {
+  text-decoration: underline;
+}
+
+.main-bottom__text--sign-up {
+  text-decoration: underline;
+}
+
+.input-box__register-as {
+  border-radius: 8px;
+  padding: 12 16;
+
+  /* 기존 스타일 초기화 */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  /* 오른쪽으로 이동하는 화살표를 표시 */
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23424242" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right center; /* 변경된 부분: left에서 right로 */
+
+}

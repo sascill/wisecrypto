@@ -1,0 +1,21 @@
+.input-boxes__checkbox {
+  display: flex;
+  gap: 8px;
+}
+
+.input-boxes__checkbox input {
+  flex-shrink: 0;
+
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+}
+
+.input-boxes__checkbox label {
+  font-size: var(--fs-100);
+  line-height: var(--fs-300)
+}
+
+.input-boxes__checkbox label a {
+  color: var(--clr-primary);
+}
