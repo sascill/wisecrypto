@@ -4,15 +4,6 @@ body {
   align-items: center;
 }
 
-.main-container {
-  width: 345px;
-  padding-top: 19px;
-
-  display: flex;
-  flex-direction: column;
-  gap: 19px;
-}
-
 .profile-container {
   display: flex;
   align-items: center;
