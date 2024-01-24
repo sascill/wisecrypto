@@ -327,7 +327,6 @@ body {
 }
 
 .footer__home {
-  padding: 16 12;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -336,7 +335,6 @@ body {
 }
 
 .footer__market {
-  padding: 16 12;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -345,7 +343,6 @@ body {
 }
 
 .footer__profile {
-  padding: 16 12;
   display: flex;
   flex-direction: column;
   align-items: center;

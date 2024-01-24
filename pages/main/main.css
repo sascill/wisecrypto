@@ -1,2 +1,8 @@
-div {
+.footer div img {
+  width: 66px;
+  height: 71px;
+}
+
+.footer__home {
+  /* border-top: 2px solid var(--clr-primary); */
 }
