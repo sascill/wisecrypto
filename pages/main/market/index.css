@@ -1,0 +1,88 @@
+.search-box {
+  position: relative;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.search-box__input {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 14px;
+}
+
+.search-box__input::placeholder {
+  font-size: var(--fs-200);
+  color: #BEBEBE;
+}
+
+.search-box__input:focus {
+  outline: 1px solid var(--clr-primary)
+}
+
+.search-box__img {
+  position: absolute;
+  left: 90%;
+  top: 35%;
+}
+
+.category-box {
+  width: 345px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.category-box::-webkit-scrollbar {
+  display: none;
+}
+
+.market-list {
+  padding: 0;
+  list-style: none;
+  
+  display: flex;
+  gap: 8px;
+}
+
+.market-list__button {
+  border: 1px solid var(--clr-primary);
+  border-radius: 8px;
+  padding: 8 12;
+  color: var(--clr-primary);
+  font-size: var(--fs-100);
+  font-weight: var(--fw-bold);
+  background-color: var(--clr-light);
+  white-space: nowrap;
+  
+}
+
+.market-list__button--active {
+  border: 1px solid var(--clr-primary);
+  border-radius: 8px;
+  padding: 8 12;
+  color: white;
+  font-size: var(--fs-100);
+  font-weight: var(--fw-bold);
+  background-color: var(--clr-primary);
+  white-space: nowrap;
+}
+
+.coin-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.coin-card {
+  background-color: white;
+  padding: 12 16;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.coin-info {
+  display: flex;
+  gap: 16px;
+}
