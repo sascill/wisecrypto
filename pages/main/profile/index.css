@@ -1,0 +1,174 @@
+.main-container {
+  gap: 24px;
+}
+
+/* user-info */
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.user-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-img-container__img {
+  width: 80px;
+  height: 80px;
+}
+
+.user-img-edit-container {
+  position: relative
+}
+
+.user-img-container__edit-button {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  background-color: var(--clr-primary);
+  border-radius: 24px;
+  padding: 3 4;
+  
+}
+
+.user-img-container__edit-button img {
+  width: 18px;
+  height: 19px;
+}
+
+.user-info__name {
+  font-size: 1.5rem;
+  font-weight: var(--fw-bold);
+}
+
+/* current-balance */
+.current-balance-container {
+  position: relative;
+  height: 140px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.current-balance {
+  width: 100%;
+  background-color: var(--clr-primary);
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+  padding-bottom: 36px;
+  background-image: url("../../../assets/img/pages/profile/wave.svg");
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.current-balance-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.current-balance-left--bold {
+  font-weight: var(--fw-bold)
+}
+
+.current-balance-right {
+  font-size: 2rem;
+  font-weight: var(--fw-bold)
+}
+
+.withdraw-card {
+  width: 265px;
+  background-color: white;
+  border-radius: 16px;
+  padding: 12 40;
+  position: absolute;
+  bottom: 0%;
+
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.withdraw-card::after {
+  content: '';
+  position: absolute;
+  height: 35px;
+  left: 50%;
+  border-left: 1px solid var(--clr-primary);
+  transform: translateX(-50%);
+}
+
+.withdraw-card > * {
+  flex: 1;
+  color: var(--clr-primary);
+  font-size: var(--fs-200);
+  font-weight: var(--fw-semi-bold);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.withdraw-button {
+  width: 24px;
+  height: 24px;
+}
+
+/* card */
+.card {
+  border-radius: 10px;
+  padding: 12 16;
+  background-color: white;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-left {
+  display: flex;
+  gap: 8px;
+}
+
+.card-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-text-box__top {
+  font-weight: var(--fw-bold);
+}
+
+.card-text-box__bottom {
+  font-size: var(--fs-100);
+  color: gray;
+}
+
+.card-right {
+  display: flex;
+  align-items: center;
+}
+
+/* settings */
+.settings {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings__heading {
+  font-weight: var(--fw-semi-bold);
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
