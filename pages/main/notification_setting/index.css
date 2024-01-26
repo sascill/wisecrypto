@@ -36,30 +36,38 @@ body {
     font-weight: var(--fw-semi-bold);
 }
 
-.c-swtich-container {
+.c-switch-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.c-swtich {
-    
+.c-switch {
+    display: none;
 }
 
-.c-swtich__label {
+.c-switch__label {
     width: 32px;
     height: 19px;
     border-radius: 63px;
-    background-color: var(--clr-primary);
+    background-color: #BEBEBE;
 
     display: flex;
     align-items: center;
 }
 
-.c-swtich__label::before {
+.c-switch__label::before {
     content: '';
     width: 18px;
     height: 100%;
     background-color: white;
     border-radius: 50%;
+}
+
+.c-switch:checked + .c-switch__label {
+  background-color: var(--clr-primary);
+}
+
+.c-switch:checked + .c-switch__label::before {
+  transform: translateX(14px);
 }
