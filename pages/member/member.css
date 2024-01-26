@@ -33,41 +33,6 @@ main {
   gap: 24px
 }
 
-.input-container {
-  display: flex;
-  flex-direction: column;
-
-  gap: 32px;
-}
-
-.input-boxes {
-  display: flex;
-  flex-direction: column;
-
-  gap: 16px;
-}
-
-.input-box__label {
-  font-size: var(--fs-200)
-}
-
-.input-box {
-  display: flex;
-  flex-direction: column;
-
-  gap: 8px;
-}
-
-.input-box input,select {
-  padding: 12 16;
-  border-radius: 8px;
-  border: none;
-}
-
-.input-box input:focus,select:focus {
-  outline: 1px solid var(--clr-primary)
-}
-
 .main-top__forgot-password--warning {
   color: var(--clr-warning);
   font-size: var(--fs-100);
