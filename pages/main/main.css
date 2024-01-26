@@ -27,6 +27,28 @@ body {
   font-weight: var(--fw-bold);
 }
 
+/* button component */
+.c-button {
+  border: 1px solid var(--clr-primary);
+  border-radius: 8px;
+  padding: 8 12;
+  color: var(--clr-primary);
+  font-size: var(--fs-100);
+  font-weight: var(--fw-bold);
+  background-color: var(--clr-light);
+  white-space: nowrap;
+}
+
+.c-button--active {
+  border: 1px solid var(--clr-primary);
+  border-radius: 8px;
+  padding: 8 12;
+  color: white;
+  font-size: var(--fs-100);
+  font-weight: var(--fw-bold);
+  background-color: var(--clr-primary);
+  white-space: nowrap;
+}
 
 .coin-card {
   padding: 12 16;

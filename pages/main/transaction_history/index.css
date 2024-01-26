@@ -1,0 +1,102 @@
+.main-container {
+  width: 345px;
+  margin: 0 auto;
+  gap: 16px;
+}
+
+/* category */
+.category {
+  display: flex;
+  gap: 6px;
+}
+
+.category > * {
+  flex: 1
+}
+
+/* transaction card */
+.transaction-card {
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.transaction-card__horizon {
+  border-top: 1px solid #BEBEBE;
+}
+
+.transaction-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.transaction-card__code {
+  font-size: var(--fs-100);
+  color: gray;
+}
+
+.transaction-card-bottom {
+  display: flex;
+  gap: 8px;
+}
+
+.icon-frame {
+  border-radius: 10px;
+  padding: 12;
+}
+
+.icon-frame--pending {
+  background-color: #FFFCE0;
+}
+
+.icon-frame--success {
+  background-color: #E0FFF0;
+}
+
+.icon-frame--fail {
+  background-color: #FFE0E0;
+}
+
+.icon-frame img {
+  width: 20px;
+  height: 20px;
+}
+
+.text-box {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-box-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.text-box-left__top {
+  font-weight: var(--fw-bold);
+}
+
+.text-box-left__bottom {
+  font-size: var(--fs-200); 
+
+  display: flex;
+  gap: 8px;
+}
+
+.text-box-right {
+  font-size: var(--fs-100);
+  font-weight: var(--fw-semi-bold);
+  color: gray;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: end;
+}

@@ -1,0 +1,158 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../style.css">
+  <link rel="stylesheet" href="../main.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="back-button-container">
+    <img src="../../../assets/img/pages/notice/arrow_left.svg"  alt="back button">
+    <span class="back-button-container__text">Transaction List</span>
+  </div>
+  <main class="main-container">
+    <div class="category">
+      <button class="c-button--active">All</button>
+      <button class="c-button">Balance</button>
+      <button class="c-button">Purchases</button>
+      <button class="c-button">Sales</button>
+    </div>
+    <div class="transaction-card card">
+      <div class="transaction-card-top">
+        <p class="transaction-card__code">Transaction Code : TS-10283</p>
+        <div class="c-status c-status--pending">
+          <span>Pending</span>
+        </div>
+      </div>
+      <div class="transaction-card__horizon"></div>
+      <div class="transaction-card-bottom">
+        <div class="icon-frame icon-frame--pending">
+          <img src="../../../assets/img/pages/transaction-list/pending_icon.svg" alt="pending icon">
+        </div>
+        <div class="text-box">
+          <div class="text-box-left">
+            <p class="text-box-left__top">Add Balance</p>
+            <p class="text-box-left__bottom">$5</p>
+          </div>
+          <div class="text-box-right">
+            <p class="text-box-right__top">29 Nov</p>
+            <p class="text-box-right__bottom">12.30</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="transaction-card card">
+      <div class="transaction-card-top">
+        <p class="transaction-card__code">Transaction Code : TS-24932</p>
+        <div class="c-status c-status--success">
+          <span>Success</span>
+        </div>
+      </div>
+      <div class="transaction-card__horizon"></div>
+      <div class="transaction-card-bottom">
+        <div class="icon-frame icon-frame--success">
+          <img src="../../../assets/img/pages/transaction-list/success_icon.svg" alt="success icon">
+        </div>
+        <div class="text-box">
+          <div class="text-box-left">
+            <p class="text-box-left__top">Add Balance</p>
+            <p class="text-box-left__bottom">$5</p>
+          </div>
+          <div class="text-box-right">
+            <p class="text-box-right__top">29 Nov</p>
+            <p class="text-box-right__bottom">12.30</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="transaction-card card">
+      <div class="transaction-card-top">
+        <p class="transaction-card__code">Transaction Code : TS-32418</p>
+        <div class="c-status c-status--fail">
+          <span>Fail</span>
+        </div>
+      </div>
+      <div class="transaction-card__horizon"></div>
+      <div class="transaction-card-bottom">
+        <div class="icon-frame icon-frame--fail">
+          <img src="../../../assets/img/pages/transaction-list/fail_icon.svg" alt="fail icon">
+        </div>
+        <div class="text-box">
+          <div class="text-box-left">
+            <p class="text-box-left__top">Add Balance</p>
+            <p class="text-box-left__bottom">$5</p>
+          </div>
+          <div class="text-box-right">
+            <p class="text-box-right__top">29 Nov</p>
+            <p class="text-box-right__bottom">12.30</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="transaction-card card">
+      <div class="transaction-card-top">
+        <p class="transaction-card__code">Transaction Code : TS-12342</p>
+        <div class="c-status c-status--success">
+          <span>Success</span>
+        </div>
+      </div>
+      <div class="transaction-card__horizon"></div>
+      <div class="transaction-card-bottom">
+        <div class="icon-frame icon-frame--success">
+          <img src="../../../assets/img/pages/transaction-list/success_icon.svg" alt="success icon">
+        </div>
+        <div class="text-box">
+          <div class="text-box-left">
+            <p class="text-box-left__top">Sales</p>
+            <p class="text-box-left__bottom">0.000001 BTC <img src="../../../assets/img/pages/transaction-list/arrow-right.svg" alt="right arrow icon"> $5</p>
+          </div>
+          <div class="text-box-right">
+            <p class="text-box-right__top">29 Nov</p>
+            <p class="text-box-right__bottom">12.30</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="transaction-card card">
+      <div class="transaction-card-top">
+        <p class="transaction-card__code">Transaction Code : TS-38284</p>
+        <div class="c-status c-status--success">
+          <span>Success</span>
+        </div>
+      </div>
+      <div class="transaction-card__horizon"></div>
+      <div class="transaction-card-bottom">
+        <div class="icon-frame icon-frame--success">
+          <img src="../../../assets/img/pages/transaction-list/success_icon.svg" alt="success icon">
+        </div>
+        <div class="text-box">
+          <div class="text-box-left">
+            <p class="text-box-left__top">Purchase</p>
+            <p class="text-box-left__bottom">$5 <img src="../../../assets/img/pages/transaction-list/arrow-right.svg" alt="right arrow icon"> 0.0000001 BTC</p>
+          </div>
+          <div class="text-box-right">
+            <p class="text-box-right__top">29 Nov</p>
+            <p class="text-box-right__bottom">12.30</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__icon footer__home">
+      <a href="#"><img src="../../../assets/img/home_active.svg" alt="Home button"></a>
+    </div>
+    <div class="footer__icon footer__market">
+      <a href="#"><img src="../../../assets/img/market_non_active.svg" alt="Market button"></a>
+    </div>
+    <div class="footer__icon footer__profile">
+      <a href="#"><img src="../../../assets/img/profile_non_active.svg" alt="Profile button"></a>
+    </div>
+  </footer>
+</body>
+</html>

@@ -38,3 +38,33 @@ body {
     font-size: var(--fs-300);
     background-color: var(--clr-light);
 }
+
+/* card */
+.card {
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* status */
+.c-status {
+  border-radius: 12px;
+  padding: 4 8;
+}
+
+.c-status--pending {
+  background-color: #FFFCE0;
+  color: var(--clr-warning);
+  font-size: var(--fs-100);
+}
+
+.c-status--success {
+  background-color: #E0FFF0;
+  color: var(--clr-primary);
+  font-size: var(--fs-100);
+}
+
+.c-status--fail {
+  background-color: #FFE0E0;
+  color: var(--clr-danger);
+  font-size: var(--fs-100);
+}
