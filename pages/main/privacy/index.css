@@ -1,0 +1,8 @@
+body {
+  min-height: 100vh;
+}
+
+.main-container {
+  flex-grow: 1;
+  min-height: auto;
+}
