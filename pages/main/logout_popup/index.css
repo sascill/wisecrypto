@@ -1,0 +1,48 @@
+.popup-container {
+    background-color: white;
+    padding: 40;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.warning-container {
+    width: 64px;
+    height: 64px;
+}
+
+.warning-container img {
+    width: 60px;
+    height: 60px;
+}
+
+.popup-text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.button-box {
+    display: flex;
+    gap: 16px;
+}
+
+.button-box > * {
+    padding: 10 32;
+    border: 1px solid var(--clr-danger);
+    border-radius: 4px;
+}
+
+.button-box__cancel {
+    color: var(--clr-danger);
+    background-color: white;
+}
+
+.button-box__Logout {
+    background-color: var(--clr-danger);
+    color: white;
+}
