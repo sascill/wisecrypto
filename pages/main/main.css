@@ -168,3 +168,12 @@ body {
 
   flex: 1;
 }
+
+/* revenue */
+.revenue--up {
+  color: var(--clr-primary);
+}
+
+.revenue--down {
+  color: var(--clr-danger);
+}

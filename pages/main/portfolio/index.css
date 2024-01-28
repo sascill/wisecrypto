@@ -7,6 +7,7 @@ body {
     min-height: auto;
 } 
 
+/* total portfolio */
 .portfolio-container {
     height: 112px;
     overflow: auto;
@@ -76,10 +77,105 @@ body {
     font-weight: var(--fw-bold);
 }
 
+/* portfolio list */
+.portfolio-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .card {
     padding: 16px;
     
     display: flex;
     flex-direction: column;
     gap: 8px;
+}
+
+.portfolio-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.symbol-container {
+    width: 40px;
+    height: 40px;
+    background-color: var(--clr-light);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-coin-left {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.portfolio-coin-left img {
+    width: 24px;
+    height: 24px;
+}
+
+.text-box__top {
+    font-weight: var(--fw-bold);
+}
+
+.text-box__bottom {
+    font-size: var(--fs-100);
+    color: gray;
+}
+
+.coin-info__percentage {
+    background-color: var(--clr-primary);
+    border-radius: 8px;
+    padding: 4px;
+    height: 22px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+  
+.coin-info__percentage--text {
+    color: white;
+    font-weight: var(--fw-bold);
+    font-size: 0.625rem;
+}
+
+.portfolio-coin-right {
+    display: flex;
+    align-items: center;
+}
+
+.card__horizon {
+    border-top: 1px solid #BEBEBE;
+}
+
+.portfolio-card__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom__coin {
+    font-size: var(--fs-100);
+}
+
+.price-box {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.dallor {
+    font-weight: var(--fw-bold)
+}
+
+.revenue {
+    font-size: var(--fs-100);
 }
